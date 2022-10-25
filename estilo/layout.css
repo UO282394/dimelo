@@ -1,0 +1,49 @@
+body{
+    display : grid;
+    grid-template-areas: 
+    'navegador  '
+    'cabecera '
+    'contenido '
+    'pie '
+    ;
+   
+   
+}
+main{
+ 
+    grid-area: contenido;
+    
+}
+section{
+    
+    padding-top: 0.4vw;
+    padding-bottom: 1.5vw;
+}
+nav{
+
+    grid-area : navegador;
+    padding-top: 0.9vw;
+    padding-bottom: 0.9vw;
+   
+   
+   
+   }
+header{
+    grid-area: cabecera;
+    
+  
+    
+    
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+footer{
+   
+    grid-area : pie;
+    display:flex;
+   
+}
+
+
+
